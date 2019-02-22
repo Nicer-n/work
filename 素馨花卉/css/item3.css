@@ -80,7 +80,6 @@ header{
     background: #83b944;
     float: left;
 }
-
 .img-item:hover img{
     transform: scale(1.1);
 }
