@@ -78,8 +78,7 @@ html{
 .content{
     width: 100%;
     min-height: 1rem;
-    background: #eeeeee;
-    /*padding-bottom: 0.24rem;*/
+    background: #eaeaea;
 }
 .content1{
     width: 7.02rem;
@@ -273,7 +272,6 @@ html{
     position: absolute;
     right: 0.24rem;
     top: 0;
-    /*margin-right: 0.24rem;*/
 }
 .beizhu-iconfont{
     font-family: "iconfont";
