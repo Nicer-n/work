@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+html{
+    font-size: 100px;
+}
+
+@media  (min-width: 320px) {
+    html{
+        font-size: calc(100px*320/750);
+    }
+}
+@media  (min-width: 360px) {
+    html{
+        font-size:42.66667px; /*calc(100px*360/750)*/;
+    }
+}
+@media  (min-width: 360px) {
+    html{
+        font-size: 48px/*calc(100px*360/750)*/;
+    }
+}
+@media  (min-width: 375px) {
+    html{
+        font-size: 50px/*calc(100px*360/750)*/;
+    }
+}
+@media  (min-width: 414px) {
+    html{
+        font-size: 55.2px/*calc(100px*360/750)*/;
+    }
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1030162 */
+    src: url('//at.alicdn.com/t/font_1030162_smeqlcdahgq.eot');
+    src: url('//at.alicdn.com/t/font_1030162_smeqlcdahgq.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030162_smeqlcdahgq.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030162_smeqlcdahgq.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030162_smeqlcdahgq.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030162_smeqlcdahgq.svg#iconfont') format('svg');
+}

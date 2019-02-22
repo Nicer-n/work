@@ -1,0 +1,263 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 1.6rem;
+    background: #0ecf98;
+
+}
+.title{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.back{
+    width: 0.39rem;
+    height: 0.39rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.26rem;
+}
+#header h3{
+    font-size: 0.38rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.9rem;
+    font-family: "苹方 常规";
+    font-weight: 400;
+}
+.search{
+    width: 0.39rem;
+    height: 0.39rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0.64rem;
+    top: 0.26rem;
+}
+.more{
+    width: 0.39rem;
+    height: 0.39rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0.26rem;
+}
+.backItem,.searchItem,.moreItem{
+    display: block;
+    font-size: 0.2rem;
+    color: #0ecf98;
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: 0.39rem;
+    font-family: "iconfont";
+    text-align: center;
+}
+.shopInformation{
+    width: 7.02rem;
+    height: 1.55rem;
+    background: #fff;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem
+    rgba(7, 0, 2, 0.2);
+    margin: -0.72rem auto 0;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.shopImg{
+    width: 1.27rem;
+    height: 1.27rem;
+    border-radius: 50%;
+    box-shadow: -0.002rem 0.03rem 0.1rem 0rem
+    #e4fafc;
+    position: absolute;
+    left: 0.24rem;
+    top: 0.14rem;
+}
+.shopImg img{
+    width: 1.27rem;
+    height: 1.27rem;
+    border-radius: 50%;
+}
+.shopDesc{
+    width: 5.25rem;
+    height: 1.55rem;
+    float: right;
+    padding-top: 0.23rem;
+    position: relative;
+}
+.shopDesc h3{
+    font-size: 0.24rem;
+    opacity: 0.5;
+    margin-bottom: 0.1rem;
+
+}
+.member{
+    font-size: 0.18rem;
+
+}
+.member img{
+    width: 0.22rem;
+    height: 0.18rem;
+    position: absolute;
+    right: 2.44rem;
+    top: 0.29rem;
+
+}
+.member span{
+    opacity: 0.6;
+    position: absolute;
+    right: 1.67rem;
+    top: 0.27rem;
+}
+.shopDesc p{
+    margin-top: 0.05rem;
+    font-size: 0.18rem;
+    opacity: 0.7;
+}
+.phone{
+    font-family:"iconfont";
+}
+.gonggao{
+    color: #ffe434;
+}
+.sectionBox{
+    width: 100%;
+    height: 1.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.24rem;
+}
+.section{
+    width: 7.02rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section li{
+    width:1.18rem;
+    height:0.39rem;
+    font-size: 0.24rem;
+    color:#0ecf98;
+    text-align: center;
+    line-height: 0.39rem;
+    font-weight: 400;
+
+
+}
+#text-black{
+    color: #000000;
+    opacity: 0.5;
+    margin-top: 0.05rem;
+}
+#line{
+   opacity: 0.1;
+    color: #000;
+}
+.content{
+    width: 100%;
+    height: 8.17rem;
+    /*height: 100%;*/
+    background: #eeeeee;
+    padding-top: 0.34rem;
+}
+.item{
+    width: 100%;
+    height: 0.88rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+    margin-bottom: 0.24rem;
+}
+.icon{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #0ecf98;
+    position: absolute;
+    top:0.14rem;
+    left: 0.3rem;
+    border-radius: 50%;
+    box-shadow: -0.002rem 0.03rem 0.1rem 0rem
+    #0ecf98;
+}
+.item-iconfont{
+    text-align: center;
+    font-family: "iconfont";
+    font-size: 0.3rem;
+    display: block;
+    line-height: 0.6rem;
+    color: #fff;
+}
+.item h3{
+    font-size: 0.24rem;
+    position: absolute;
+    left:1.14rem;
+    top: 0.3rem;
+}
+.icon2{
+    width: 0.31rem;
+    height: 0.16rem;
+    background: #ff296f;
+    border-radius: 0.1rem;
+    position: absolute;
+    right:0.26rem;
+    top: 0.36rem;
+    font-size: 0.13rem;
+    text-align: center;
+    line-height: 0.16rem;
+    color: #fff;
+}
+.item-iconfont2{
+    font-family: "iconfont";
+    display: block;
+}
+footer{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.footer{
+    width: 7.02rem;
+    height: 0.98rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+.footer a{
+    display: block;
+    width: 0.5rem;
+    height: 0.7rem;
+    margin-top: 0.14rem;
+    font-size: 0.2rem;
+    color: #030303;
+    text-align: center;
+}
+.footer a#active{
+    color: #0ece99;
+}
+.footer img{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+}

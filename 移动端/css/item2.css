@@ -1,0 +1,335 @@
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 1.6rem;
+    background: #0ecf98;
+
+}
+.title{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.back{
+    width: 0.39rem;
+    height: 0.39rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.26rem;
+}
+#header h3{
+    font-size: 0.38rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.9rem;
+    font-family: "苹方 常规";
+    font-weight: 400;
+}
+.search{
+    width: 0.39rem;
+    height: 0.39rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0.64rem;
+    top: 0.26rem;
+}
+.more{
+    width: 0.39rem;
+    height: 0.39rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0.26rem;
+}
+.backItem,.searchItem,.moreItem{
+    display: block;
+    font-size: 0.2rem;
+    color: #0ecf98;
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: 0.39rem;
+    font-family: "iconfont";
+    text-align: center;
+}
+.shopInformation{
+    width: 7.02rem;
+    height: 1.55rem;
+    background: #fff;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem
+    rgba(7, 0, 2, 0.2);
+    margin: -0.72rem auto 0;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.shopImg{
+    width: 1.27rem;
+    height: 1.27rem;
+    position: absolute;
+    left: 0.24rem;
+    top: 0.14rem;
+}
+.shopImg img{
+    width: 1.27rem;
+    height: 1.27rem;
+    border-radius: 50%;
+}
+.shopDesc{
+    width: 5.25rem;
+    height: 1.55rem;
+    float: right;
+    padding-top: 0.23rem;
+    position: relative;
+}
+.shopDesc h3{
+    font-size: 0.24rem;
+    opacity: 0.6;
+}
+.start{
+    width: 1.26rem;
+    height: 0.21rem;
+    position: absolute;
+    right:2.74rem;
+    top:0.28rem;
+    display: flex;
+    justify-content: space-between;
+}
+.start img{
+    width: 0.22rem;
+    height: 0.22rem;
+    display: block;
+}
+.shopDesc p{
+    margin-top: 0.05rem;
+    font-size: 0.18rem;
+    opacity: 0.6;
+}
+.manjian{
+    color: #ff296f;
+}
+.gonggao{
+    color: #ffe434;
+}
+.sectionBox{
+    width: 7.5rem;
+    height: 1.3rem;
+    margin :0.2rem auto 0;
+}
+.section{
+    width: 7.02rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.section li{
+    width:1.18rem;
+    height:0.39rem;
+    background: #ffe09f;
+    border-radius: 0.2rem;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.39rem;
+}
+.section li.active{
+    background: #ffe434;
+}
+.orderBox{
+    width: 100%;
+    height: 8.43rem;
+    /*height: 100%;*/
+    background: #eeeeee;
+    margin: 0 auto;
+}
+.content{
+    width: 7.02rem;
+    height: 8.06rem;
+    /*height: 100%;*/
+    margin: 0 auto;
+    padding-top: 0.24rem;
+    position: relative;
+}
+aside{
+    width: 1.28rem;
+    height: 100%;
+    position: absolute;
+    left: 0.24rem;
+}
+aside a{
+    display: block;
+    width: 1.28rem;
+    height: 0.45rem;
+    border: 1px solid  #0ecf98;
+    border-radius: 0.2rem;
+    font-size: 0.24rem;
+    color: #0ecf98;
+    text-align: center;
+    line-height: 0.45rem;
+    margin-bottom: 0.24rem;
+}
+aside a.active{
+    color: #fff;
+    background: #0ecf98;
+}
+.right{
+    width:5.27rem;
+    height: 100%;
+    position: absolute;
+    right: 0rem;
+    top: 0.24rem;
+}
+.rightItem{
+    width: 5.27rem;
+    height: 1.37rem;
+    background: white;
+    border-radius: 0.1rem;
+    margin-bottom: 0.27rem;
+}
+.rightItem img{
+    width: 1.18rem;
+    height: 0.86rem;
+    margin-top: 0.25rem;
+
+}
+.rightdesc{
+    width: 4rem;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.rightdesc h3{
+    font-size: 0.22rem;
+    margin-top: 0.21rem;
+}
+.rightdesc h4{
+    font-size: 0.22rem;
+    color: #0ecf98;
+    font-weight: 400;
+}
+.rightdesc p{
+    font-size: 0.18rem;
+}
+#number{
+    color: #ff296f;
+}
+#number2{
+    color: #fcd500;
+}
+.add{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #0ecf98;
+    position: absolute;
+    right: 0.26rem;
+    top: 0.75rem;
+    border-radius: 50%;
+}
+.reduce{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #0ecf98;
+    position: absolute;
+    right: 1.1rem;
+    top: 0.75rem;
+    border-radius: 50%;
+}
+.count{
+    font-size: 0.22rem;
+    color: #0ecf98;
+    position: absolute;
+    right: 0.81rem;
+    top: 0.8rem;
+}
+.add-iconfont{
+    font-size: 0.23rem;
+    font-family: "iconfont";
+    color: #fff;
+    float: left;
+    margin-left: 0.09rem;
+    margin-top: 0.08rem;
+}
+footer{
+    width: 100%;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+.footer{
+    width: 7.5rem;
+    height: 0.98rem;
+    position: relative;
+    margin: 0 auto;
+}
+.shopcar{
+    width: 0.63rem;
+    height: 0.48rem;
+    float: left;
+    margin-left: 0.61rem;
+    margin-top: 0.26rem;
+    position: relative;
+}
+.footer-iconfont{
+    width: 0.48rem;
+    height: 0.48rem;
+    font-size: 0.48rem;
+    float: left;
+    font-family: "iconfont";
+    /*margin-left: 0.61rem;*/
+    color: #0ecf98;
+}
+.shop-count{
+    width: 0.22rem;
+    height: 0.22rem;
+    background: #ffb20c;
+    border-radius: 50%;
+    position: absolute;
+    top: -0.07rem;
+    right: 0.03rem;
+    font-size: 0.18rem;
+    color: white;
+    text-align: center;
+    line-height: 0.22rem;
+
+}
+.price{
+    width: 3.91rem;
+    height: 0.98rem;
+    margin-left: 0.24rem;
+    padding-top: 0.25rem;
+    float: left;
+}
+.price-item{
+    font-size: 0.22rem;
+    color: #ffba28;
+}
+.price-item2{
+    font-size: 0.18rem;
+    opacity: 0.8;
+}
+.account{
+    display: block;
+    width:1.1rem;
+    height: 0.45rem;
+    position: absolute;
+    right: 0.5rem;
+    top:0.25rem;
+    font-size: 0.22rem;
+    line-height: 0.45rem;
+    text-align: center;
+    background-color:#0ecf98;
+    border-radius: 0.2rem;
+    color: #fff;
+}
