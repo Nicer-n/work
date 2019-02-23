@@ -1226,7 +1226,7 @@ a{
 }
 .footer-service{
     height: 80px;
-    background: #ffffff;
+    /*background: #ffffff;*/
     border-bottom: 1px solid #e0e0e0;
     cursor: pointer;
 }
@@ -1308,14 +1308,19 @@ a{
 .service:hover i{
     color: #fff;
 }
+.footbox{
+    width: 100%;
+    height: 200px;
+    background:  #fafafa;
+}
 .footer-bottom{
-    width:100%;
+    width:1226px;
     height:200px;
     padding-top: 30px;
-    background: #fafafa;
     font-size: 14px;
     color:#757575;
     position: relative;
+    margin: 0 auto;
 }
 .footer-bottom img{
     float: left;
@@ -1359,14 +1364,14 @@ a{
     cursor: pointer;
 }
 .bottom-text{
-    width:1226px;
-    height: 19px;
+    width:100%;
+    height: 20px;
+    background:  #fafafa;
     line-height: 19px;
-    margin-top:120px;
     text-align: center;
     color: #b0b0b0;
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 18px;
 }
 /*底部结束*/
