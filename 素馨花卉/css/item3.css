@@ -76,8 +76,7 @@ header{
 }
 .img-list{
     width: 50%;
-    height: 499px;
-    background: #83b944;
+    height: 500px;
     float: left;
 }
 .img-item:hover img{
